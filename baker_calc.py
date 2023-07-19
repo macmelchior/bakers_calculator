@@ -105,7 +105,7 @@ def calculate_recipe():
 
     save_recipe = pyip.inputYesNo('Save the recipe? yes/no:\n')
 
-    if save_recipe:
+    if save_recipe == 'yes':
         save(flour_weight, water_needed, starter_needed, salt_needed, starter_feeding, starter_type)
 
 
